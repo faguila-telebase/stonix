@@ -1,0 +1,1 @@
+505b6a0060abdcd251eeafeffd976fd1d510fd4b4c875fca8888bf46a7348919  libstonix-x86_64.so

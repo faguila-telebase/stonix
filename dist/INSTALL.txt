@@ -1,0 +1,5 @@
+Stonix Node Deployment
+
+1. Copy libstonix-ARCH.so to your system.
+2. Verify integrity: sha256sum -c checksums.txt
+3. Set LD_LIBRARY_PATH to the library location.
