@@ -1,19 +1,13 @@
 [package]
 name = "stonix"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
-authors = ["Francisco Aguila <faguila-telebase@github.com>"]
-description = "Motor NoSQL ultraligero y eficiente diseñado para hardware limitado (ARM/Intel), con gestión dinámica de cuotas y auditoría integrada."
-license = "MIT OR Apache-2.0"
-repository = "https://github.com/faguila-telebase/stonix.git"
-readme = "README.md"
-keywords = ["nosql", "database", "storage", "lightweight", "arm"]
-categories = ["database-implementations", "filesystem"]
-include = ["src/**/*", "Cargo.toml", "README.md", "examples/**/*"]
+authors = ["Francisco <curro@telebase.run.place>"]
+description = "A lightweight, indexed Key-Value store optimized for ARM and Intel hardware."
+license = "MIT"
+repository = "https://github.com/tu-usuario/stonix"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-aes-gcm = "0.10"
-sha2 = "0.10"
 anyhow = "1.0"
