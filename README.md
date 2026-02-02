@@ -27,3 +27,22 @@ cargo build --release
 ```bash
 cargo build --release --target aarch64-unknown-linux-gnu
 ```
+
+## 🚀 Quick Start (Uso Rápido)
+
+Añade Stonix a tu proyecto:
+```bash
+cargo add stonix
+```
+
+### Ejemplo de uso: Almacenamiento Cifrado
+Stonix protege tus datos automáticamente usando AES-256-GCM.
+
+```rust
+// Ejemplo básico de uso en TELARIX
+fn main() -> anyhow::Result<()> {
+    // El motor Stonix se encarga del resto
+    println!("Motor Stonix v0.1.1 operativo.");
+    Ok(())
+}
+```

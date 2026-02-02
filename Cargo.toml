@@ -1,6 +1,6 @@
 [package]
 name = "stonix"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Francisco Aguila <faguila-telebase@github.com>"]
 description = "Motor NoSQL ultraligero y eficiente diseñado para hardware limitado (ARM/Intel), con gestión dinámica de cuotas y auditoría integrada."
