@@ -2,14 +2,13 @@
 name = "stonix"
 version = "0.1.0"
 edition = "2021"
-
-[lib]
-name = "stonix"
-path = "src/lib.rs"
-
-[[bin]]
-name = "stonix-guard"
-path = "src/stonix-guard.rs"
+authors = ["Francisco Aguila <faguila-telebase@github.com>"]
+description = "Motor NoSQL ultraligero y eficiente diseñado para hardware limitado (ARM/Intel), con gestión dinámica de cuotas y auditoría integrada."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/faguila-telebase/stonix.git"
+readme = "README.md"
+keywords = ["nosql", "database", "storage", "lightweight", "arm"]
+categories = ["database-implementations", "filesystem"]
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
