@@ -9,6 +9,7 @@ repository = "https://github.com/faguila-telebase/stonix.git"
 readme = "README.md"
 keywords = ["nosql", "database", "storage", "lightweight", "arm"]
 categories = ["database-implementations", "filesystem"]
+include = ["src/**/*", "Cargo.toml", "README.md", "examples/**/*"]
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
