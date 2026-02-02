@@ -1,18 +1,19 @@
 use stonix::Stonix;
 
 fn main() {
-    let db = Stonix::new("./data");
-    let current_user = "admin_curro";
+    // Escenario: El administrador asigna solo 100 bytes a este entorno
+    let quota = 100;
+    let db = Stonix::new("./data", quota);
+    let user = "admin_curro";
 
-    println!("🛡️ Iniciando Stonix con control de acceso...");
-    
-    let json_data = r#"{"secret": "Clave-Privada-Telebase-2026", "audit": "LOPD-Ready"}"#;
-    
-    // Ahora pasamos el usuario para el registro de auditoría
-    db.put("secret_data", json_data, current_user).expect("Error al escribir");
+    println!("🛡️ Stonix iniciado con cuota de {} bytes.", quota);
 
-    match db.get("secret_data", current_user) {
-        Ok(data) => println!("✅ Acceso autorizado. Contenido: {}", data),
-        Err(e) => println!("❌ Acceso denegado o error: {}", e),
+    // Este texto tiene unos 115 bytes aprox, debería ser bloqueado
+    let big_data = "Este es un texto que pretende ser bastante largo para superar el limite de cien bytes que hemos puesto arriba.";
+    
+    println!("尝试写入 (Intentando escribir)...");
+    match db.put("over_limit_test", big_data, user) {
+        Ok(_) => println!("✅ Escrito con éxito (¡Algo falló, no debería dejar!)"),
+        Err(e) => println!("❌ Bloqueo de seguridad: {}", e),
     }
 }
