@@ -2,13 +2,10 @@
 name = "stonix"
 version = "0.1.0"
 edition = "2021"
-authors = ["faguila-telebase"]
-description = "Telebasix Fast Storage Engine & Guard"
 
 [lib]
 name = "stonix"
 path = "src/lib.rs"
-crate-type = ["cdylib"]
 
 [[bin]]
 name = "stonix-guard"
