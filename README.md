@@ -16,3 +16,14 @@ Ultraleichte NoSQL-Engine für die **TELARIX**-Infrastruktur. Extreme Effizienz.
 
 ## 🇨🇳 中文
 专为 **TELARIX** 基础设施设计的超轻量级 NoSQL 引擎。极致效率。
+## 🛠 Compilación / Compilation / Kompilierung / Компиляция / 编译
+
+### Standard Build
+```bash
+cargo build --release
+```
+
+### ARM Cross-compilation
+```bash
+cargo build --release --target aarch64-unknown-linux-gnu
+```
