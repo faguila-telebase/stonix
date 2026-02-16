@@ -1,0 +1,29 @@
+======================================================================
+TELARIX SYSTEM DOCUMENTATION - LEGACY NETWORK ARCHITECTURE
+======================================================================
+
+[ESPAÑOL]
+Hito: Balanceo de carga RDSI 128kbps (Zyxel).
+Innovación: Activación dinámica del segundo canal B bajo demanda.
+Impacto: Base histórica para la eficiencia O(1) del Stonix Engine.
+
+[ENGLISH]
+Milestone: ISDN 128kbps Load Balancing (Zyxel).
+Innovation: Dynamic demand-based activation of the second B-channel.
+Impact: Historical foundation for Stonix Engine O(1) efficiency.
+
+[GERMAN]
+Meilenstein: ISDN 128kbit/s Lastverteilung (Zyxel).
+Innovation: Dynamische bedarfsgesteuerte Aktivierung des zweiten B-Kanals.
+Auswirkung: Historische Basis für die O(1)-Effizienz der Stonix Engine.
+
+[RUSSIAN]
+Веха: Балансировка нагрузки ISDN 128 кбит/с (Zyxel).
+Инновация: Динамическая активация второго B-канала по требованию.
+Влияние: Историческая основа эффективности O(1) системы Stonix Engine.
+
+[CHINESE]
+里程碑：ISDN 128kbps 负载均衡 (Zyxel)。
+创新：根据需求动态激活第二个 B 通道。
+影响：Stonix Engine O(1) 效率的历史基础。
+

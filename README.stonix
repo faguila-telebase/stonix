@@ -1,0 +1,10 @@
+### STONIX ENGINE v1.0
+
+- **ES**: Motor de almacenamiento optimizado con control de cuota.
+- **EN**: Optimized storage engine with quota control.
+- **DE**: Optimierte Speicher-Engine mit Kontingentsteuerung.
+- **RU**: Оптимизированный движок хранения с контролем квот.
+- **ZH**: 具有配额控制的优化存储引擎。
+
+**Protocol**: Atomic Write / syscall.Statfs
+**Quota**: 50MB
